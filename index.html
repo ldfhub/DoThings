@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+		<title>待办事项列表</title>
+		<link rel="stylesheet" href="./css/index.css" />
+		<script src="./js/jquery-2.1.0.js"></script>
+	</head>
+	<body>
+		<header>
+			<section>
+				<label>ToDoList</label>
+				<input type="text" id="title" name="title" placeholder="添加ToDo" required="required" />
+			</section>
+		</header>
+		<section>
+			<h2>正在进行<span id="todocount"></span></h2>
+			<ol id="todolist" class="demo-box">
+				<!-- 需要动态生成的li -->
+				<!-- <li>
+					<input type="checkbox" name="" id="" />
+					<p></p>
+					<a href="#"></a>
+				</li> -->
+			</ol>
+			<h2>已经完成 <span id="donecount"></span></h2>
+			<ul id="donelist">
+				
+			</ul>
+		</section>
+		<footer>
+			Copyright &coderldf.club
+		</footer>
+	</body>
+</html>
